@@ -9,6 +9,7 @@ import { RouterModule } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
+import { OffersComponent } from './pages/offers/offers.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { RegisterComponent } from './pages/register/register.component';
     HomeComponent,
     LoginComponent,
     RegisterComponent,
+    OffersComponent,
 
   ],
   imports: [

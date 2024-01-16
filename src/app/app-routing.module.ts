@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
+import { OffersComponent } from './pages/offers/offers.component';
 
 const routes: Routes = [
   {path: "" , component: HomeComponent},
   {path: "test" , component: TestComponent},
   {path: "login" , component: LoginComponent},
   {path: "register" , component: RegisterComponent},
+  {path: "offers" , component: OffersComponent},
 
 ];
 
