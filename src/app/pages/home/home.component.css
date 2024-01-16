@@ -1,0 +1,18 @@
+.filter{
+  height: 80vh;
+  padding-top: 35px;
+  margin-top: 15px;
+  border-right: 1px solid;
+}
+
+.cards{
+  margin-top: 35px;
+}
+
+.card{
+  padding: 10px;
+  border-radius: 0.375rem; /* Adjust the border-radius for rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+  min-height: 430px;
+  max-height: 430px;
+}
