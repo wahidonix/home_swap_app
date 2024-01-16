@@ -1,1 +1,93 @@
-<p>home works!</p>
+<div class="w-full flex flex-row">
+  <div class=" filter w-1/5 h-90vh flex flex-col ">
+    <div class = "px-28 mb-8">
+      <label class="flex items-center space-x-2">
+        <span class="text-gray-700">House</span>
+        <input type="checkbox" class="form-checkbox text-indigo-600">
+      </label>
+      <label class="flex items-center space-x-2">
+        <span class="text-gray-700">Apartment</span>
+        <input type="checkbox" class="form-checkbox text-indigo-600">
+      </label>
+    </div>
+
+
+
+
+
+    <div class="px-28 mb-8">
+      <label for="country" class="text-gray-700">Square footage</label>
+    <div class="mt-2">
+      <select id="country" name="country" autocomplete="country-name" class="block w-3/4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6">
+        <option>0-50</option>
+        <option>50-75</option>
+        <option>75-110</option>
+        <option>110+</option>
+      </select>
+    </div>
+    </div>
+
+    <div class="px-28 mb-8">
+      <label for="country" class="text-gray-700">Number of rooms</label>
+    <div class="mt-2">
+      <select id="country" name="country" autocomplete="country-name" class="block w-3/4 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+    </div>
+
+
+
+    </div>
+
+    <div class = "px-28">
+      <label class="flex items-center space-x-2">
+        <span class="text-gray-700">Garage</span>
+        <input type="checkbox" class="form-checkbox text-indigo-600">
+      </label>
+    </div>
+
+
+
+
+  </div>
+
+  <div class="cards w-4/5 px-24 ">
+    <!--
+  This example requires some changes to your config:
+
+
+  // tailwind.config.js
+  module.exports = {
+    // ...
+    plugins: [
+      // ...
+      require('@tailwindcss/aspect-ratio'),
+    ],
+  }
+
+-->
+<ul role="list" class="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
+
+
+  <li class="relative card">
+    <div class="group aspect-h-7 aspect-w-10 block w-full overflow-hidden rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
+      <img src="https://images.unsplash.com/photo-1582053433976-25c00369fc93?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=512&q=80" alt="" class="pointer-events-none object-cover group-hover:opacity-75">
+      <button type="button" class="absolute inset-0 focus:outline-none">
+        <span class="sr-only">View details for IMG_4985.HEIC</span>
+      </button>
+    </div>
+    <p class="pointer-events-none mt-2 block truncate text-sm font-medium text-gray-900">Vojkovacka 180</p>
+    <p class="pointer-events-none block text-sm font-medium text-gray-900">Number of room</p>
+    <p class="pointer-events-none block text-sm font-medium text-gray-900">Square footage </p>
+    <p class="pointer-events-none block text-sm font-medium text-gray-900">Garage</p>
+  </li>
+
+
+  <!-- More files... -->
+</ul>
+  </div>
+</div>
